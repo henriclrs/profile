@@ -1,0 +1,117 @@
+/*Font*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(20,20,20);
+  background-image: url("./images/cloud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserra', sans-serif;
+  font-size: 40px;
+  line-height: 10px;
+  font-weight: lighter;
+  color: #454ADE;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #574AE2;
+  text-align: center;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+/*design class*/
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-movies {
+  display:block;
+  width: 250px;
+  height:300px;
+  margin: 20px;
+}
+
+.img-music{
+  display:block;
+  width: 100px;
+  height:100px;
+  margin: 20px;
+}
+
+.card {
+  margin: 20px;
+  background-color: #F2FDFF;
+  border-radius: 3px;
+  padding: 40px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  align-content: center;
+}
+
+.card-band{
+  margin: 20px;
+  border-radius: 3px;
+  padding: 40px;
+  align-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.list-inline {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
